@@ -1,5 +1,5 @@
-#PUBLIQUE BUILDING 
-version:0.01
+# PUBLIQUE BUILDING 
+## version:0.01
 
 
-pour lancer le server symfony 'symfony serve'
+> pour lancer le server symfony 'symfony serve'
