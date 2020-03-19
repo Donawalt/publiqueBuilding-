@@ -1,0 +1,21 @@
+{% extends "base.html.twig" %}
+{% block body %}
+        <style>
+                .index-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+                .index-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+        </style>
+        <div class="index-wrapper">
+        <h1>Publique Building</h1>
+        <form class="c-form-ui" action="api" method="get">
+                <div class="field">
+                        <label>Votre ville</label>
+                        <input type="text" placeholder="Valence" name="name" required>
+                </div>
+                <div class="field">
+                        <label>Votre code postal</label>
+                        <input type="text" placeholder="26000" maxlength="5" name="codeP" required>
+                </div>
+                <button class="button" type="submit">Send</button>
+        </form>
+        </div>
+{% endblock %}
